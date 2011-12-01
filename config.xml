@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.1"
+	id		    = "com.sampleProject"
+	version 	= "1.0">
+
+	<name>C2DM Android Sample w Phonegap UA</name>
+
+	<description>
+        C2DM Android Sample w Phonegap UA
+	</description>
+
+  <icon src="res/drawable-hdpi/icon.png" width="72" height="72" />
+  <icon src="res/drawable-mdpi/icon.png" width="48" height="48" />
+  <icon src="res/drawable-ldpi/icon.png" width="36" height="36" />
+
+  <gap:splash src="res/drawable-hdpi/splash.png" />
+</widget>
