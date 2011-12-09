@@ -34,7 +34,7 @@ public class IntentReceiver extends BroadcastReceiver {
 		    String extra = intent.getStringExtra(PushManager.EXTRA_STRING_EXTRA);
 		    
 		    plugin = PushNotificationPlugin.getInstance();
-		    plugin.sendResultBack(alert, extra);
+		    if(plugin != null) plugin.sendResultBack(alert, extra);
 
 		} else if (action.equals(PushManager.ACTION_NOTIFICATION_OPENED)) {
 			Log.i(TAG, "User clicked notification. Message: " + intent.getStringExtra(PushManager.EXTRA_ALERT)
